@@ -1,0 +1,138 @@
+body
+{
+    background-color: rgb(237, 237, 237);
+    margin: 0px;
+}
+
+.two
+{
+    color: rgb(48, 87, 243);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    display: block;
+    /* margin: auto; */
+    /* flex-wrap: wrap; */
+
+
+}
+
+
+
+.three
+{
+    padding-top: 0px;
+    position: absolute;
+    top: 290px;
+    left: 120px;
+    display: block;
+    /* flex-wrap: wrap; */
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+
+
+.five
+{
+    position: absolute;
+    top: 125px;
+    left: 700px; 
+    border: 1px solid white; 
+    height: 365px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    float: left;
+}
+
+.email
+{
+    height: 50px;
+    width: 370px;
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 5px;
+}
+
+.email:focus
+{
+    outline: none;
+    border-color: rgb(48, 87, 243);
+}
+
+.submit
+{
+    color: white;
+    background-color: rgb(48, 87, 243);
+    height: 50px;
+    width: 370px;
+    font-size: larger;
+    border-color: rgb(48, 87, 243) ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.submit:hover
+{
+    cursor: pointer;
+}
+
+.forgot
+{
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+label:hover
+{
+    cursor: pointer;
+}
+label:hover
+{
+    text-decoration: underline;
+}
+
+label
+{
+    color: rgb(0, 136, 255);
+}
+
+
+
+.btn
+{
+    
+    background-color:rgb(3, 185, 3);
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(3, 185, 3);
+    font-weight: bolder;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+.line
+{
+    width: 375px;
+    border-bottom: 1px solid rgb(236, 229, 229);
+    margin: auto;
+}
+
